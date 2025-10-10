@@ -11,6 +11,8 @@ struct HomeView: View {
                     .buttonStyle(.borderedProminent)
                 NavigationLink("🎧 Soundboard") { SoundboardPage() }
                     .buttonStyle(.bordered)
+                NavigationLink("🗂️ Saved Settings") { AppStoragePage() }
+                    .buttonStyle(.bordered)
                 Spacer()
             }
             .padding()
